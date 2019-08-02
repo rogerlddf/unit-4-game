@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>simple crystal game</title>
+
+  <style type="text/css">
+
+    .crystal-image {
+      width: 300px;
+      height: 300px;
+    }
+  </style>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/287e089e0b.js"></script>
+<link type="text/css" rel="stylesheet" href="./assets/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="row section1">
+      <div class="col-sm-12">
+       <h1>Number to Guess: <span id="number-to-guess"></span></h1>
+       <div class="row score-board">
+      
+       <div class="col score-text">Wins <span id="wins-text">0</span></div>
+       <div class="col score-text">Losses <span id="losses-text">0</span></div>
+       </div>
+      </div>
+    </div>
+   <div class="row section2">
+      <div class="col">
+       <i class="fas fa-gem crystal0"></i>
+      </div>
+      <div class="col">
+        <i class="fas fa-gem crystal1"></i>
+      </div>
+      <div class="col">
+        <i class="fas fa-gem crystal2"></i>
+      </div>
+      <div class="col">
+        <i class="fas fa-gem crystal3"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- JAVASCRIPT  -->
+  <!-- ========================================= -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" rel="application" src="./assets/javascript/game.js"></script>
+
+</body>
+</html>
